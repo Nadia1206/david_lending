@@ -47,7 +47,7 @@ body div {
     clear: both;
     background-image: url(../image/bg.jpg);
     background-repeat: no-repeat;
-    min-height: 90vh;
+    height: 100%;
 }
 .hero_text h1 {
     color: #4baf28;
@@ -923,7 +923,7 @@ input[type="text"], .callback_select {
     float: left;
     margin: 0 auto;
 }
-}
+ 
 
 
 @media screen and (max-width: 600px){
