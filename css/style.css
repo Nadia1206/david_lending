@@ -11,11 +11,11 @@ body div {
 }
 .header {
     height: 80px;
+    width: 100%;
 }
 .nav li{
     font-size: 85%;
     float: left;
-    margin-right: 15px;
     color: #373737;
     font-family: 'Fregat_regular';
 }
@@ -27,7 +27,6 @@ body div {
     list-style: none;
 }
 .nav {
-    width: 80%;
     float: right;
     margin-right: 0px;
     margin-top: 40px;
@@ -37,7 +36,6 @@ body div {
     float: left;
     font-size: 42px;
     margin-top: 25px;
-    margin-left: 90px;
     font-weight: bold;
      color: #373737;
      font-family: 'Fregat_bold';
@@ -60,7 +58,6 @@ section {
 }
 .hero_text{
     color: #4baf28;
-      width: 80%;
       margin: 0 auto;
       font-size: 110%;
        line-height: 40px;
@@ -76,18 +73,17 @@ section {
     line-height: 25px;
     width: 100%;
 }
-.hero_text_p p {
-    padding-right: 160px;
-}
+
 .hero_button {
-    width: 60%;
-    margin-left: 80px;
+     margin: 0 auto;
     margin-top:80px;
+
+   
 }
 .hero_button_write{
-    width: 40%;
+   
     background-color:#62b946;
-    height: 30px;
+    height: 50px;
     border-radius:5px;
     color: #fff;
     text-align: center;
@@ -96,11 +92,14 @@ section {
     font-size: 90%;
     float: left;
     cursor: pointer;
+    margin: 0px auto;
+    margin-bottom: 10px;
+
 }
 .hero_button_more {
-     width: 50%;
+    margin: 0px auto;
    border: 3px solid #62b946;
-    height: 30px;
+    height: 50px;
     border-radius:5px;
     color: #62b946;;
     text-align: center;
@@ -108,12 +107,10 @@ section {
     text-transform: uppercase; 
     font-size: 90%;
     float: right;
-    margin: 0px;
     cursor: pointer;
 }
 .hero_position{
     float: left;
-    width: 60%;
     margin: 0 auto;
 }
 .about {
@@ -125,9 +122,7 @@ padding: 30px 0px;
 }
 .about_program {
     float: left;
-    width: 40%;
-    margin-top: 70px;
-    margin-left: 100px;
+ margin-top: 50px;
     color: #fff; 
     text-transform: uppercase; 
     font-size: 120%;
@@ -135,7 +130,6 @@ padding: 30px 0px;
 }
 .about_program_who {
     float: right;
-    width: 50%;
     color: #fff;
 }
 .about_program_who ul li{
@@ -152,13 +146,12 @@ padding: 30px 0px;
     color: #62b946;
  text-transform: uppercase; 
  font-size: 150%;
- width: 100%;
  text-align: center;
  font-family: 'Fregat_bold';
 }
-.what_disc {
-    margin-left: 210px;
-    width: 70%;
+.what_disc p {
+    margin: 0 auto;
+    float: none;
     font-size: 110%;
     color: #323232;
     text-align: center;
@@ -171,8 +164,10 @@ padding: 30px 0px;
   background-color: none;
 }
 .gallery {
-    width: 900px;
     margin: 0px auto;
+}
+.item img {
+    float:  none;
 }
 .item {
     position: relative;
@@ -189,49 +184,47 @@ padding: 30px 0px;
 }
 .arrow_left {
     float: left;
-    margin-top:300px;
-    margin-left: 70px;
+    margin-top:200px;
     cursor: pointer;
 }
 .arrow_right {
     cursor: pointer;
     float: right;
-    margin-top: 300px;
-    margin-right: 70px;
+    margin-top: 200px;
 }
 .what_list {
-    margin-left: 200px;
-    margin-top: 30px;
- 
+float: none;
+margin: 10px auto;
 }
-.what_list_first, .what_list_second  {
+.what_list_first {
     float: left;
-    width: 39%;
-    height: 200px;
 }
 .what_list_second {
- margin-left: 50px;
+      float: right;
 }
 .what_list_first li, .what_list_second li {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #6f716c;
     text-align: center;
     font-size: 100%;
 }
 .what_program {
+    float: none;
     clear: both;
-    margin: 40px auto;
-    width: 65%;
-    height: 60px;
+    margin: 0px auto;
     text-align: center;
-    padding-top: 60px;
     color: #6f716c;
     line-height: 20px;
+    margin-bottom: 30px;
 }
 .what_program p{
     margin: 0;
     padding: 0;
     font-size: 100%;
+}
+.what_image {
+    float: none;
+    margin-top: 20px;
 }
 .call {
     width: 100%;
@@ -240,29 +233,29 @@ padding: 30px 0px;
     background-color: #ddffcc;
 }
 .call_title {
+    float: none;
 margin: 0px auto;
 color: #6f716c;
  text-transform: uppercase; 
  font-size: 120%;
- width: 100%;
 text-align: center;
  font-family: 'Fregat_bold';
 }
 .call_disc {
-    width: 80%;
+    float: none;
+    width: 100%;
     margin: 20px auto;
     color: #6f716c;
     text-align: center;
     font-size: 110%;
 }
 .call_cities{
-    width: 80%;
-    margin: 40px auto;
+   float: none;
+    margin: 20px auto;
     color: #656565;
     padding-bottom: 70px;
 }
 .call_city {
-    width: 32%;
     float: left;
     text-align: center;
     font-size: 120%;
@@ -276,36 +269,38 @@ font-size: 90%;
     font-size: 120%;
 }
 .call_button {
+    float: none;
     clear: both;
-    margin: 50px auto;
-    width: 265px;
+    margin: 0px auto;
     border: 2px solid #6f716c;
-    padding-top: 15px;
+    padding-top: 5px;
     color: #6f716c;
     text-align: center;
     font-size: 110%;
     cursor: pointer;
-    height: 35px;
+    height: 40px;
      text-transform: uppercase; 
      border-radius: 5px;
 }
 .info {
+    width: 100%;
     padding: 80px  0px;
     display: inline-block;
     background-image: url(../image/img_2.jpg);
 }
+
 .info_title{
     margin: 0px auto;
     color: #4eb029;
  text-transform: uppercase; 
  font-size: 180%;
- width: 100%;
+float: none;
  text-align: center;
  font-family: 'Fregat_bold';
 }
 .info_disc{
-    width: 80%;
-    margin: 40px auto;
+   float: none;
+    margin: 20px auto;
     color: #fff;
     text-align: center;  
 }
@@ -316,20 +311,22 @@ font-size: 90%;
     font-size: 100%;
 }
 .info_icons {
-    width: 70%;
+    float: none;
     margin: 0px auto;
     padding-top: 60px;
-    
+}
+.info_icon {
+    margin-left: 30px;
 }
 .icon {
-    float: left;
-    width: 20%;
     position: relative;
+    margin: 0 auto;
 }
 .icon_img {
-    position: absolute;
+position: absolute;
 top: 50px;
 left: 50px;
+margin: 0 auto;
 
 }
 .icon_img_food {
@@ -356,7 +353,7 @@ margin: 0;
     color: #4eb029;
     font-size: 130%;
    margin: 30px 0px;
-   width: 85%;
+   width: 100%;
     text-align: center;
 }
 .icon_text_under p {
@@ -366,39 +363,47 @@ margin: 0;
 .info_next_text {
     padding-top: 40px;
     clear: both;
+    float: none;
+    margin: 0 auto;
 }
 .info_next_text h2 {
     color: #4eb029;
-    width: 65%;
-    margin: 0px auto;
 text-transform: uppercase;
 font-size: 130%;
+ float: none;
+  text-align: center;
 }
 .info_next_text span {
     font-size: 210%;
+     float: none;
+      text-align: center;
 }
 .info_next_text h3 {
     text-transform: uppercase;
     font-weight: none;
     color: #fff;
-    width: 40%;
-    margin: 0px auto;
     font-size: 100%;
     margin-top: 60px;
+    text-align: center;
+     float: none;
 }
 .info_next_text p {
     color: #fff;
-    width: 60%;
     margin: 20px auto;
     text-align: center;
     line-height: 25px;
     font-size: 100%;
+     float: none;
 }
 .benefit {
     width: 100%;
     display: inline-block;
     padding-top: 85px;
      padding-bottom: 70px;
+}
+.benefit_1234 {
+
+    padding-top: 30px;
 }
 .benefit_1234_title{
     
@@ -413,21 +418,20 @@ font-size: 130%;
 }
 .benefit_text_left{
     float: left;
-    width: 50%;
-    
 }
 .benefit_text_right {
      float: right;
-    width: 50%;
+}
+.benefit_align_right {
+    float: right;
 }
 .benefit_image_left {
     float: right;
-    width: 30%;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 .benefit_image_right {
      float: left;
-    width: 30%;
+     margin: 0;
 }
 .benefit_1234 {
     width: 90%;
@@ -443,7 +447,6 @@ font-size: 130%;
 }
 .benefit_disc {
     font-size: 100%;
-    width: 70%;
     margin: 0px auto;
     color: #6f716c;
     line-height: 20px;
@@ -457,44 +460,36 @@ font-size: 130%;
 .benefit_text_left .benefit_title {
     margin-left: 150px;
 }
-.benefit_image_right {
-    margin-left: 150px;
-} 
 .scheme {
+    width: 100%;
     padding-top: 60px;
     padding-bottom: 80px;
     display: inline-block;
     background-color:#cdffcc; 
 }
 .scheme_title {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
     margin: 0px auto;
     color: #4eb029;
  text-transform: uppercase; 
  font-size: 130%;
-  width: 100%;
  text-align: center;
 }
 .scheme_disc {
-    width: 90%;
+    float: none;
     margin: 0 auto;
 }
 .scheme_disc_part {
     float: left; 
-    width: 28%;
-    margin-left: 60px;
 }
 .scheme_line {
     clear: both;
-}
-.line {
-    width: 70%;
 }
 .scheme_disc_bold {
     font-weight: bold;
     color: #656565;
     font-size: 120%;
-    height: 50px;
+   
     margin: 0;
 }
 .scheme_disc_part p:nth-child(2) {
@@ -506,27 +501,29 @@ font-size: 130%;
 .scheme_circle {
 border: 2px solid #4eb029;
 border-radius: 60%;
-width: 4%;
+width: 13.5%;
 color: #4eb029;
-font-size: 150%;
-height: 2%;
+font-size: 120%;
 padding: 10px 15px;
-height: 4%;
 text-align: center;
-padding-top: 10px;
 font-family: 'Fregat_bold';
 float: left;
+margin: 0 0;
 }
 .scheme_line {
-margin-left: 150px;
-width: 90%;
+margin: 0 auto;
+float: none;
 padding-top: 30px;
 
 }
 .line {
   overflow: hidden;
+  left: 0;
+  right: 0;
+  margin: 0 0;
+  padding: 0 0;
   float: left;
-  width: 30%;
+
 }
 .line:before,
 .line:after {
@@ -542,18 +539,12 @@ padding-top: 30px;
  
 }
 .line:before {
-  margin-left: 0%;
-  margin-top: 6%;
+  margin-left: 0px;
+  margin-top: 25px;
 }
 .line:after {
- margin-top: 6%;
-  margin-right: 0%;
-}
-.scheme_hr_1 {
-    width: 10%;
-    color: #4eb029;
-    height: 2%;
-    float: left;
+ margin-top: 25px;
+  margin-right: 0px;
 }
 
 .why {
@@ -561,30 +552,31 @@ padding-top: 30px;
     padding: 65px 0px;
 }
 .why_title {
-    margin: 0px auto;
     color: #62b946;
  text-transform: uppercase; 
  font-size: 125%;
-  width: 100%;
  text-align: center;
 
 }
+.why_paragraphs {
+    float: none;
+    margin: 0 auto;
+}
 .why_paragraph_img {
     float: left;
-    width: 20%;
+    
 }
 .why_paragraph_count img{
-    padding-left: 200px;
+   
     margin-top: 20px;
    
 }
 .why_paragraph_disc {
     float: right;
-    width: 70%;
-    margin: 0px auto;
+   
+    margin: 30px auto;
 }
 .why_paragraph_disc_bolt {
-    width: 85%;
     line-height: 25px;
     font-size: 120%;
     color: #a1a1a1;
@@ -596,8 +588,6 @@ padding-top: 30px;
 }
 .why_paragraph_disc p:last-child {
     color: #a1a1a1;
-    width: 85%;
-  
     font-size: 100%;
     line-height: 25px;
 }
@@ -613,19 +603,16 @@ padding-top: 30px;
     color: #4cb127;;
  text-transform: uppercase; 
  font-size: 140%;
- width: 100%;
  text-align: center;
  margin-bottom: 60px;
 }
 .callback_cities {
-width: 70%;
 margin: 0 auto;
-color: #656565;;
+color: #656565;
+float:  none;
 }
 .callback_city {
     float: left;
-    width: 30%;
-    margin-left: 20px;
     text-align: center;
     font-size: 100%;
 }
@@ -633,19 +620,18 @@ color: #656565;;
     font-size: 125%;
 }
 .callback_preform {
+    float: none;
     clear: both;
-    width: 100%;
     color: #a1a1a1;
     text-align: center;
     padding: 25px;
     font-size: 100%;
 }
 .callback_form {
-    width: 85%;
+    float: none;
     margin: 20px auto;
 }
 .callback_form_section {
-    width: 32%;
     float: left;
     margin-bottom: 80px;
      font-size: 100%;
@@ -668,11 +654,11 @@ input[type="text"], .callback_select {
 }
 
 .callback_button {
- width: 30%;
+    float: none;
     background-color:#62b946;
-    height: 40px;
+    height: 50px;
    font-size: 100%;
-    padding-top:20px;
+    padding-top:15px;
     color: #fff;
     text-align: center;
     text-transform: uppercase; 
@@ -686,6 +672,7 @@ input[type="text"], .callback_select {
     background-color: #323232;
     padding-top:30px;
     margin: 0;
+    width: 100%;
    
 }
 .footer_copyright{
@@ -694,373 +681,64 @@ input[type="text"], .callback_select {
     margin-left: 70px;
    
 }
-@media screen and (max-width: 1400px){
+/*@media screen and (max-width: 1400px){
     .hero_button {
         margin-top: 50px;
     }
 
+}*/
+@media screen and (max-width: 1300px){
+     .info_icon {
+    margin-left: 0px;
+}
+}
+@media screen and (max-width: 980px){
+    .hero{
+   padding-top: 10px;
+   padding-bottom: 10px;
+    background-repeat: repeat; 
+}
+.hero_text h1 {
+   padding-right: 10px;  
+}
+.hero_text_p{
+    margin-top: 10px;
+}
+.about {
+padding: 0px 0px;
+
+}
+.about_program {
+ margin-top: 10px;
+
+}
+.arrow_left, .arrow_right {
+    display: none;
+}
+.info_icon {
+    margin-left: 50px;
+
+}
+.icon_text_under{
+    width: 70%;
+} 
+  .benefit_image_left, .benefit_image_right  {
+      float: none;
+  }
+  .scheme_line {
+    display: none;
+}
+.why_paragraph_count{
+    margin: 0 auto;
+}
 }
 @media screen and (max-width: 1300px){
     .nav li {
-        min-width: 50%;
+        min-width: 100%;
         font-size: 18px;
         padding: 5px;
         list-style: none;
         border-bottom: 2px solid #373737; 
     }
-   .about_program_who{
-        width: 90%;
-        margin-top: 5px;
     }
-    .about_program {
-          margin-top: 5px;
-        padding-left: 10px;
-        width: 70%;
-    }
-    .hero {
-        padding-top: 5px;
-        background-repeat: repeat;
-    }
-    .hero_button_write, .hero_button_more {
-        width: 100%;
-        margin-top: 10px;
-    }
-    hero_text{
-        margin: 5px auto;
-        font-size: 90%;
-        width: 100%;
-        text-align: center;
-    }
-    .hero_text_p {
-        margin: 5px auto;
-        width: 100%;
-    }
-    .hero_text_p p, .hero_text h1{
-        padding: 0 0;
-    }
-    .hero_position{
-        width: 100%;
-        float: none;
-    }
-    .hero_button {
-        width:70%;
-        margin: 0 auto;
-        margin-top: 30px;
-    }
-      .gallery, .item img {
-        width: 85%;
-    }
-    .arrow_left {
-    float: left;
-    margin-top:150px;
-    margin-left: 10px;
-    cursor: pointer;
-}
-.arrow_right {
-    cursor: pointer;
-    float: right;
-    margin-top: 150px;
-    margin-right: 10px;
-}
-.what_list_first, .what_list_second {
-    height: 100%;
-    width: 45%;
-}
-.what_list {
-    margin: 10px;
-}
-.call_title{
-     width: 100%;
- text-align: center;
-}
-
-.scheme_disc {
-    width: 100%;
-    margin: 10px auto;
-}
-.scheme_disc_part {
-    width: 30%;
-    margin: 10px;
-}
-.scheme_disc_bold {
-    height: 100%;
-}
-.scheme_circle {
-    margin: 10px;
-}
-.scheme_line {
-    width: 80%;
-    margin-left: 150px;
-}
-.why_title {
-     width: 100%;
- text-align: center;
-}
-.why_paragraph_img {
-    float: left;
-    width: 20%;
-}
-.why_paragraph_count img{
-    padding-left: 50px;
-    margin-top: 20px;
-   
-}
-.why_paragraph_disc {
-    float: right;
-    width: 80%;
-    margin: 0px auto;
-    height: 120px;
-}
-.why_paragraph_count{
-    margin: 0 0;
-    padding:  0 0;
-    height: 150px;
-}
-
-}
-@media screen and (max-width: 1300px){ 
-.benefit_text_left{
-    float: left;
-    width: 40%;
-}
-.benefit_text_right {
-     float: right;
-    width: 40%;
-}
-.benefit_image_left {
-    float: right;
-    width: 30%;
-}
-.benefit_image_right {
-     float: left;
-    width: 30%;
-}
-}
-
-
-@media screen and (max-width: 960px){
-    .nav li {
-        width: 90%;
-        font-size: 20px;
-        padding: 5px;
-        list-style: none;
-        border-bottom: 2px solid #373737; 
-    }
-    .hero_position{
-        width: 100%;
-    }
-    .what_title, .what_disc {
-     width: 90%;
-    text-align: center;
-    margin: 5px auto;
-    }
-    .what_list_first  li, .what_list_second li, .what_program {
-        text-align: left;
-    }
-    .what_program {
-        padding: 10px;
-    }
-    .arrow_left, .arrow_right {
-        display: none;
-    }
-    
-    .gallery, .item img,  {
-        width: 100%;
-    }
-.what_list_first, .what_list_second {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-
-}
-.what_list{
-    margin: 5px;
-    padding: 0;
-}
-.call_title {
-     width: 100%;
- text-align: center;
-   
-}
-.call_city {
-    width: 100%;
-    border-bottom: 2px solid  #373737;
-}
-.call_cities div:last-child {
-    margin-bottom: 30px;
-}
-.info_title {
-     width: 100%;
- text-align: center;
-    padding: 10px;
-}
-.info_disc {
-    width: 100%;
-}
-    .icon {
-    width: 50%;
-}
-.info_next_text p,.info_next_text h3, .info_next_text  h2{
-    width: 80%;
-    margin: 10px auto;
-    text-align: center;
-}
-.benefit {
-    padding: 0 0;
-    margin: 0 0;
-}
-.benefit_1234_title {
-    margin: 0px auto;
-    padding: 0 0;
-    width: 90%;
-    padding: 25px;
-    text-align: center;
-}
-benefit_text_left .benefit_title, .benefit_text_right .benefit_title {
-     width: 100%;
-     margin: 10px;
-     padding: 10px;
- text-align: center;
-}
-.benefit_text_left, .benefit_text_right {
-    width: 100%;
-    padding: 10px;
-    float: none;
-    margin: 0 auto;
-}
-.benefit_image_right, .benefit_image_left {
-    width: 70%;
-    margin: 10px auto;
-    padding:  0 0;
-    float: none;
-    padding: 10px;
-}
-.benefit_image_right img, .benefit_image_left img {
-    width: 100%;
-}
-.scheme_title {
-    padding: 0;
-    margin: 10px;
-     width: 100%;
- text-align: center;
-}
-.scheme_disc {
-    width: 90%;
-    text-align: center;
-}
-.scheme_disc_part {
-    width: 90%;
-    margin: 10px;
-    text-align: center;
-}
-.scheme_disc_bold {
-    height: 100%;
-    width: 90%;
-    text-align: center;
-}
-.scheme_circle {
-    display: none;
-}
-.line {
-    display: none;
-}
-.why_title, .why_paragraphs, .why_paragraph_disc {
-    width: 90%;
-    text-align: center;
-    padding: 0 0;
-    margin: 0 auto;
-    height: 100%;
-}
-.why_paragraph_count {
-    width: 100%;
-    height: 100%;
-}
-.why_paragraph_count img {
-   margin: 0 0;
-   padding: 0 0;
-}
-.callback_title {
-    width: 100%;
-    text-align: center;
-    margin: 10px;
-}
-.callback_cities {
-    width: 100%;
-    margin: 10px;
-    padding: 0px;
-}
-.callback_city {
-    width: 90%;
-    margin: 10px;
-    padding: 0px;
-}
-.callback_preform {
-    width: 90%;
-    text-align: center;
-}
-.callback_form{
-    width: 100%;
-}
-.callback_form_section, .callback_button {
-    width: 90%;
-    margin-left: 20px;
-}
-}
-@media screen and (max-width: 850px) {
-
-
-}
-@media screen and (max-width: 720px) {
-    .call_title {
-    width: 100%;
-    margin: 0 auto;
-}
-}
-
-
-@media screen and (max-width: 600px){
-    .hero_button{
-        margin: 0px 40px;
-        padding: 0;
-    }
-  
-  
-    .about_program {
-        margin: 0px 50px;
-        padding: 0;
-    }
-    .what_program {
-     width: 100%;
-     margin: 5px 0px;
-     padding: 5px 0px;
-    
-}
-.info_title {
-text-align: center;
-    width: 90%;
-    padding: 10px;
-}
-
-}
-@media screen and (max-width: 480px) {
-    .icon {
-    width: 70%;
-    margin: 0 auto;
-}
-
-}
-@media screen and (max-width: 360px) {
-
-.icon {
-    width: 80%;
-    margin: 0 auto;
-}
-}
-@media screen and (max-width: 320px) {
-
-.icon {
-    width: 95%;
-    margin: 0 auto;
-}
-}
+     
